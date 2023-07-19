@@ -147,3 +147,55 @@ nav {
   display: flex;
   text-align: left;
 }
+
+.btn-sign {
+  display: inline-flex;
+  padding: .5rem 1rem;
+  align-items: flex-start;
+  color: #FFF;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 3rem;
+  background: #FF42A5
+}
+
+
+.btn-go {
+  display: inline-flex;
+  padding: .5rem 1rem;
+  align-items: flex-start;
+  color: #FFF;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 3rem;
+  background: #4EC5F7;
+}
+
+
+.design {
+  color: #0B0223;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  padding-top: 50px;
+
+}
+
+.span-design {
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2rem;
+  font-weight: 700;
+
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  padding: 90px;
+  
+  align-items: center;
+}

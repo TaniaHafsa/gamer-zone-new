@@ -1,4 +1,4 @@
-/* shared styles starts */
+/* shared styles */
 * {
   margin: 0;
   padding: 0;
@@ -29,6 +29,7 @@
   font-weight: 400;
   text-transform: lowercase;
 }
+
 
 /* shared styles ends */
 
@@ -65,7 +66,6 @@ nav {
 
 .menu ul li {
   display: flex;
-  /* justify-content: space-around; */
   display: inline-block;
   padding: 30px 20px;
   text-decoration: none;
@@ -92,6 +92,8 @@ nav {
 }
 
 /* banner styles starts */
+
+
 .banner {
   display: flex;
   justify-content: space-between;
@@ -124,7 +126,7 @@ nav {
   text-transform: uppercase;
 }
 
-.banner-goat {
+.banner-title2 {
   text-align: left;
   font-family: Work Sans;
   font-size: 3rem;
@@ -152,7 +154,7 @@ nav {
   margin-right: 10px;
 }
 
-.button {
+.btn {
   margin-top: 20px;
 }
 
@@ -179,12 +181,16 @@ nav {
 }
 
 /* banner styles ends */
-/* online-games section starts */
-.online-game .section-title {
+
+
+/* games section starts */
+
+
+.online-games .section-title {
   margin: 130px 0px 10px 0px;
 }
 
-.online-game .text-light-grey {
+.online-games .text-light-grey {
   text-align: center;
   margin-bottom: 45px;
 }
@@ -208,7 +214,9 @@ nav {
 }
 
 
-/* online-games section ends */
+/* games section ends */
+
+
 /* play instantly section start */
 
 .play-instantly {
@@ -253,7 +261,11 @@ nav {
 }
 
 /* play instantly section end */
+
+
 /* games section starts */
+
+
 .game {
   height: 350px;
   width: 85%;
@@ -298,7 +310,10 @@ nav {
 
 
 /* games section ends */
+
+
 /* footer section starts */
+
 
 .footer-section {
   margin-top: 50px;
@@ -350,7 +365,7 @@ nav {
   margin-left: 100px;
 }
 
-.para .pa {
+.paragraph .pa {
   color: rgba(255, 255, 255, 0.60);
   font-size: .8rem;
   font-weight: 500;
@@ -373,8 +388,10 @@ nav {
 
 
 
-/* media queries */
+
 /* for mobile devices */
+
+
 @media screen and (max-width:576px) {
 
   nav,
@@ -411,6 +428,8 @@ nav {
   }
 
   /* banner section responsive */
+
+
   .banner,
   .online-game-img-container {
     flex-direction: column-reverse;
@@ -438,6 +457,8 @@ nav {
   }
 
   /* online game responsive */
+
+
   .online-game-img-container {
     padding-left: 400px;
   }
@@ -456,6 +477,8 @@ nav {
   }
 
   /* play instantly responsive */
+
+
   .play-instantly {
     flex-direction: column;
   }
@@ -493,12 +516,14 @@ nav {
   }
 
   /* games section responsive */
+
+
   .game {
     width: 100%;
     margin-left: 70px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* column-gap: 30px; */
+
   }
 
   .footer-section {
@@ -563,6 +588,8 @@ nav {
 
 
 /* for tablet devices */
+
+
 @media screen and (min-width:576px) and (max-width:992px) {
   nav {
     flex-direction: column;
@@ -615,7 +642,7 @@ nav {
   .online-game>.section-title {
     width: 100%;
     margin-left: 250px;
-    /* padding-left: 400px; */
+
   }
 
   .online-game>.text-light-grey {
@@ -625,6 +652,8 @@ nav {
   }
 
   /* play instantly section responsive */
+
+
   .play-instantly {
     flex-direction: column;
   }
@@ -651,11 +680,8 @@ nav {
   .game {
     width: 100%;
     margin-left: 270px;
-    /* display: grid;
-      grid-template-columns: repeat(5, 1fr); */
     display: flex;
     flex-wrap: wrap;
-    /* column-gap: 30px; */
   }
 
   /* footer */
